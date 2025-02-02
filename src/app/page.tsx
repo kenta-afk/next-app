@@ -5,9 +5,9 @@ export default function Page() {
     <>
       <h1>Hello, Next.js!</h1>
 
-      <button><Link href="/dashboard">Go to Dashboard</Link></button>
+      <Link href="/dashboard">
+        <button>Go to Dashboard</button>
+      </Link>
     </>
   )
-  
-
 }

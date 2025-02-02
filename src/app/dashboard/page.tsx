@@ -5,7 +5,9 @@ export default function Dashboard() {
         <>
             <h1>Hello, Dashboard!</h1>
 
-            <button><Link href="/">Go to Home</Link></button>
+            <Link href="/">
+                <button>Go to Home</button>
+            </Link>
         </>
         
     )
